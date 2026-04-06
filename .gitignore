@@ -1,0 +1,63 @@
+# Nx.Dev
+.nx/installation
+.nx/cache
+.nx/workspace-data
+
+# *.d.ts
+*.d.ts
+
+# NPM/Yarn
+package-lock.json
+
+# git
+.gitconfig
+
+# .env
+.env
+
+# compiled output
+dist
+tmp
+/out-tsc
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+.vscode/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Prevents any accidental .sql imports, especially psql dumps
+
+# crontab (graphile-worker)
+crontab
+
+# Misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+.DS_Store
+Thumbs.db
+.angular
+.github/instructions/nx.instructions.md
+
+
+storybook-static
