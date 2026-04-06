@@ -1,10 +1,12 @@
 # DT Mindmapper
 
----
+> **[Live Demo](https://dmitrii1011sg.github.io/dertopf-mindmapper/)**
 
 ### Overview
 
 A visual node editor and mind-mapping tool built with React and React Flow. This project focuses on seamless UI/UX, state management with Zustand, and a clean "Telegram-inspired" design system.
+![App Screenshot](./public/screenshots/common.png)
+![App Screenshot](./public/screenshots/editing.png)
 
 ### Currently implemented
 

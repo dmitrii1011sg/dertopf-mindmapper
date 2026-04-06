@@ -15,7 +15,7 @@ export const BaseNode = memo(({ id, title, selected, children }: BaseNodeProps) 
 
   const onDelete = (e: React.MouseEvent) => {
     e.stopPropagation();
-    if (window.confirm('Вы уверены, что хотите удалить этот блок?')) {
+    if (window.confirm('Are you sure you want to delete this node?')) {
       removeNode(id);
     }
   };
